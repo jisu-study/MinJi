@@ -96,6 +96,7 @@ window.saveRecord = function(recordId) {
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 success: function(response) {
+                    alert(JSON.stringify(response));
                     alert("성공적으로 수정되었습니다!");
                     recordTitleInput.parent().text(data.recordTitle);
                     locationInput.parent().text(data.location);
