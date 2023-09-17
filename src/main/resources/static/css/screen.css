@@ -1,0 +1,47 @@
+.screen {
+  position: relative;
+  background: #acb6e5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #86fde8,
+    #acb6e5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #86fde8,
+    #acb6e5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100vh;
+}
+
+.screen-container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 20%;
+}
+
+.screen-map {
+  width: 30%;
+  min-width: 500px;
+}
+
+.screen-map > img {
+  width: 100%;
+  height: 100%;
+}
+
+.screen-leftAllow {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.screen-rightAllow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
