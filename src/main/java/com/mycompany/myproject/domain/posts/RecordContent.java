@@ -23,7 +23,8 @@ public class RecordContent {
     @JoinColumn(name = "record_id")
     private Records records;
 
-    @Column(columnDefinition = "content")
+    //@Column(columnDefinition = "content")
+    @Column(columnDefinition = "TEXT")
     private String content;
 
     private String hashtag;
